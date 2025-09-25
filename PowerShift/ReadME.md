@@ -7,10 +7,10 @@
 This project analyzes the relationship between climate policy, greenhouse gas (GHG) emissions, renewable energy adoption, and environmental taxation across selected OECD countries (United States, United Kingdom, Belgium, Portugal, and Lithuania) from 2016 to 2021.
 
 By connecting environmental outcomes with policy effort, the dashboard offers insights into:
--How emissions evolved in the aftermath of the Paris Agreement (2015).
--The growth of renewable energy share and its link to emissions reductions.
--The role of environmental taxation in driving sustainability.
--The impact of the COVID-19 pandemic (2020) on global emissions and energy demand.
+- How emissions evolved in the aftermath of the Paris Agreement (2015).
+- The growth of renewable energy share and its link to emissions reductions.
+- The role of environmental taxation in driving sustainability.
+- The impact of the COVID-19 pandemic (2020) on global emissions and energy demand.
 
 Data from **OECD Health Statistics** was cleaned, modeled, and visualized through an interactive **Power BI dashboard**. Despite minor OCR-related limitations during PDF exports, the dashboard provides robust insights across countries.
 
@@ -21,7 +21,7 @@ Data from **OECD Health Statistics** was cleaned, modeled, and visualized throug
 - [Dataset Overview](#dataset-overview)  
 - [Data Preparation, Wrangling & Modeling](#data-preparation-wrangling--modeling)  
 - [Visualization and Page Interpretations](#visualization-and-page-interpretations)  
-- [Results](#results)  
+- [Key Insights](#key-insights)  
 - [Conclusions](#conclusions)  
 - [Requirements](#requirements)  
 - [Data Sources](#data-sources)  
@@ -35,19 +35,19 @@ Data from **OECD Health Statistics** was cleaned, modeled, and visualized throug
 This project draws from **3 datasets** accessed via the **OECD Data Explorer**, covering **nly the selected OECD countries featured in the dashboard**(United States, United Kingdom, Belgium, Portugal, and Lithuania), not all 38 members. Key variables include:
 
 ### Emission Metrics
--Total GHG emissions (Mt CO₂-equivalent)
--Country-wise emissions (2016–2021)
--Sectoral emissions breakdown (Agriculture, Energy industries, Energy sector, Transport, Waste)
+- Total GHG emissions (Mt CO₂-equivalent)
+- Country-wise emissions (2016–2021)
+- Sectoral emissions breakdown (Agriculture, Energy industries, Energy sector, Transport, Waste)
 
 ### Renewable Energy Metrics
--Renewable energy share (%) in total energy consumption
--Country-level renewable adoption trends (2016–2021)
--Linkages between renewable share and emission outcomes
+- Renewable energy share (%) in total energy consumption
+- Country-level renewable adoption trends (2016–2021)
+- Linkages between renewable share and emission outcomes
 
 ### Environmental Policy Metrics
--Environmental tax revenue as % of GDP
--Country-level tax effort over time
--Sustainability scoring (combined indicator of emissions, renewables, and taxation)
+- Environmental tax revenue as % of GDP
+- Country-level tax effort over time
+- Sustainability scoring (combined indicator of emissions, renewables, and taxation)
 
 > OCR-related issues affected some fields during Power BI PDF export, but core metric trends and country-level comparisons remain valid and insightful.
 
